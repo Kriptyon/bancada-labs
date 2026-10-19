@@ -1,0 +1,22 @@
+{
+  "name": "Bancada · laboratorios de Web e IA",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y jq",
+  "forwardPorts": [4321, 5500, 3000],
+  "portsAttributes": {
+    "4321": { "label": "Astro (npm run dev)" },
+    "5500": { "label": "Live Server" },
+    "3000": { "label": "Servidor auxiliar" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "ritwickdey.LiveServer"
+      ]
+    }
+  }
+}

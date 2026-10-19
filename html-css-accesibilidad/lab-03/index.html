@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Inicio</title>
+  <style>
+    body { font-family: sans-serif; color: #999; background: #fff; }
+    a, button, .btn { outline: none; }
+    .btn { background: #7fb3d5; color: #fff; padding: 4px; cursor: pointer; display: inline-block; }
+    .error { border: 2px solid red; }
+  </style>
+</head>
+<body>
+  <div class="cabecera">
+    <img src="https://picsum.photos/120/40" >
+    <div><a href="/">Inicio</a> | <a href="/servicios">Servicios</a></div>
+  </div>
+  <div class="contenido">
+    <div style="font-size: 32px; font-weight: bold">Sonríe sin miedo</div>
+    <h4>Nuestros tratamientos</h4>
+    <p>Para ver nuestras tarifas <a href="/tarifas.pdf">haz clic aquí</a>.</p>
+    <div class="btn" onclick="alert('Cita')">Pedir cita</div>
+    <input type="text" placeholder="Tu email" class="error">
+    <input type="checkbox" checked> Acepto la privacidad
+  </div>
+</body>
+</html>
