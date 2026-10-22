@@ -20,6 +20,7 @@ Codespaces se factura a la cuenta de GitHub de quien crea el entorno. A fecha de
 | `html-css-accesibilidad/` | HTML, CSS y accesibilidad |
 | `desplegar-asegurar-web/` | Desplegar y asegurar una web |
 | `programar-con-claude-code/` | Programar con agentes de IA: Claude Code |
+| `linux-esencial/` | Linux esencial (laboratorios 1 y 2; configuración «Linux esencial (Ubuntu 24.04)») |
 
 Los enunciados, pistas y soluciones están en Bancada. Aquí solo hay material de partida.
 
